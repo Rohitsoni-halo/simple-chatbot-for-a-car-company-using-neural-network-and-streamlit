@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","thanks","thank you"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","welcome"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are you?","your features"],
+         "responses": ["You can call me HALO.", "I'm the smart bot of Pininfarina: HALO!"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats running", "what do you do","what are you doing"],
+         "responses": ["We sell nice cars", "CARS!!!","CARS on SALE!!!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "cars",
+         "patterns": ["show me some", "Which car is the best", "can you recommend me some car","what cars do you have","how to buy cars online","how to buy cars offline","which one do you like","cost","your recommendations","Ferrari 212 Inter","Ferrari 250 GT Berlinetta","Ferrari 275 GTB","Ferrari 365 GTB/4 Daytona","Ferrari Testarossa","Ferrari F40","Ferrari 456 GT","Ferrari 612 Scaglietti","Ferrari P4/5 by Pininfarina","Alfa Romeo 6C 2500","Alfa Romeo Spider","Alfa Romeo GTV6","Alfa Romeo 164","Alfa Romeo Brera","Lancia Aurelia B24 Spider","Lancia Flaminia","Lancia Beta Montecarlo","Lancia Kappa","Peugeot 504","Peugeot 605","Peugeot 406","Peugeot 508","Fiat 500","Fiat Dino","Fiat X1/9","Fiat 124 Spider","Maserati A6G/54","Maserati Ghibli","Maserati Quattroporte","Pininfarina Battista","Pininfarina Pura Vision","what are the prices of the cars","Ferrari","Alfa","Lancia","Peugeot","Fiat","Maserati","Pininfarina"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "offline-store",
+         "patterns": ["From where can I get that car","how can I buy this car","where are the offline stores available","show me your offline stores","offline stores","buy offline","I want to buy a car"],
+         "responses": ["We have sales stores in different parts of the world. You can buy from any of these stores:-\nPininfarina Headquarters: Turin, Italy\nPininfarina Design Centers: Turin, Italy; Mumbai, India; and other global locations (specific cities often vary based on projects and partnerships)\nAuthorized Dealerships for Pininfarina Battista: Locations can include major cities like Milan, London, New York, and others, depending on the dealership network\nAutomotive Events and Exhibitions: Locations vary based on the event (e.g., Geneva, Switzerland; Pebble Beach, USA)\nExclusive Experience Centers: Locations vary and are typically arranged for high-profile clients"],
+         "context_set": ""
+        },
+        {"tag": "top",
+         "patterns": [ "Which is the most expensive car", "which is your fastest car"],
+         "responses": ["The fastest car designed by us is Ferrari P4/5 by Pininfarina\nThe fastest car we have is Pininfarina Battista","The most expensive car we have is Ferrari P4/5 by Pininfarina"],
+         "context_set": ""
+        },
+        {"tag": "obvious",
+         "patterns": ["I'm aware", "I'm familiar with", "I understand", "I recognize", "I grasp", "I'm conscious of", "I realize", "I'm informed", "I comprehend", "I'm knowledgeable about","I know"],
+         "responses": ["That's great"],
+         "context_set": ""
+        },
+        {"tag": "context-less",
+         "patterns": ["explain further","What do you mean by that?","Can you provide more details?","Could you clarify that statement?","What’s the definition of that term?","Can you give an example?","How does that work?","Why is that important?","Can you explain it differently?","What are the key points?","What should I do next?","ok"],
+         "responses": ["Inadequate information to generate a text"],
+         "context_set": ""
+        },
+        {"tag": "feedback",
+         "patterns": ["I'm having trouble with your service", "Your responses are not very helpful.","Your answers are too slow", "I didn't get the help I needed", "The information you provided was incorrect", "I'm finding it hard to navigate your responses", "Can you be more specific in your answers?","Your suggestions aren't relevant to my needs", "I'm frustrated with the way you handle queries", "I encountered an error in your system", "You're not understanding my questions properly", "I expected a more detailed explanation.","your are not up to date"],
+         "responses": ["I am really sorry but I tried my best to provide you with most suitable information"],
+         "context_set": ""
+        },
+        {"tag": "recommender-system",
+         "patterns": ["suggest me","recommend me", "can you suggest me","can you recommend me","which car should I buy","help me to select a car","tell me which car should i buy"],
+         "responses": [""],
+         "context_set": ""
+        }
+   ]
+}

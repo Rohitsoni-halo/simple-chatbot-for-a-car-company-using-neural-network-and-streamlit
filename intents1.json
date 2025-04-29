@@ -1,0 +1,179 @@
+{"intents": [
+        {"tag": "list",
+         "patterns": ["list the cars that you have", "what cars do you have", "list cars","show me some cars","recommend"],
+         "responses": ["Ferrari Models:\n- Ferrari 212 Inter: Estimated around $200,000 - $300,000 USD\n- Ferrari 250 GT Berlinetta: Approximately $1.5 million - $4 million USD\n- Ferrari 275 GTB: Around $600,000 - $1.5 million USD\n- Ferrari 365 GTB/4 Daytona: Approximately $500,000 - $1 million USD\n- Ferrari Testarossa: About $70,000 - $150,000 USD\n- Ferrari F40: Around $1.5 million - $2 million USD\n- Ferrari 456 GT: Approximately $50,000 - $100,000 USD\n- Ferrari 612 Scaglietti: About $60,000 - $100,000 USD\n- Ferrari P4/5 by Pininfarina: Around $4 million USD\n\nAlfa Romeo Models:\n- Alfa Romeo 6C 2500: Approximately $150,000 - $250,000 USD\n- Alfa Romeo Spider: Around $30,000 - $70,000 USD\n- Alfa Romeo GTV6: Approximately $15,000 - $30,000 USD\n- Alfa Romeo 164: About $5,000 - $15,000 USD\n- Alfa Romeo Brera: Around $20,000 - $40,000 USD\n\nLancia Models:\n- Lancia Aurelia B24 Spider: Approximately $150,000 - $300,000 USD\n- Lancia Flaminia: Around $40,000 - $80,000 USD\n- Lancia Beta Montecarlo: About $10,000 - $30,000 USD\n- Lancia Kappa: Approximately $5,000 - $15,000 USD\n\nPeugeot Models:\n- Peugeot 504: Approximately $10,000 - $30,000 USD\n- Peugeot 605: Around $5,000 - $15,000 USD\n- Peugeot 406: About $3,000 - $10,000 USD\n- Peugeot 508: Approximately $15,000 - $30,000 USD\n\nFiat Models:\n- Fiat 500: Approximately $10,000 - $30,000 USD\n- Fiat Dino: Around $70,000 - $150,000 USD\n- Fiat X1/9: About $10,000 - $20,000 USD\n- Fiat 124 Spider: Approximately $20,000 - $40,000 USD\n\nMaserati Models:\n- Maserati A6G/54: Around $500,000 - $1 million USD\n- Maserati Ghibli: Approximately $50,000 - $150,000 USD\n- Maserati Quattroporte: About $30,000 - $100,000 USD\n\nPininfarina Models:\n- Pininfarina Battista: Approximately $2.2 million USD\n- Pininfarina Pura Vision: Pricing not yet released (estimated to be in the six-figure range, potentially around $200,000 USD or more depending on final specifications)"],
+         "context_set": ""
+        },
+        {"tag": "Ferrari 250 GT Berlinetta",
+         "patterns": ["Ferrari 250 GT Berlinetta", "250 GT Berlinetta", "GT Berlinetta", "Berlinetta"],
+         "responses": [  "Estimated Value: 1.5million-4 million USD\n-Top Speed: ~155 mph (250 km/h)\n-Engine Model: 3.0L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Ferrari 275 GTB",
+         "patterns": ["Ferrari 275 GTB", "275 GTB", "GTB"],
+         "responses": ["Estimated Value: 600,000-1.5 million USD\n-Top Speed: ~155 mph (250 km/h)\n-Engine Model: 3.3L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Ferrari 365 GTB/4 Daytona",
+         "patterns": ["Ferrari 365 GTB/4 Daytona", "365 GTB/4 Daytona", "GTB/4 Daytona", "Daytona"],
+         "responses": [ "Estimated Value: 500,000-1 million USD\n-Top Speed: ~174 mph (280 km/h)\n-Engine Model: 4.4L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        },
+        {"tag": "Ferrari Testarossa",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": [ "Estimated Value: 70,000-150,000 USD\n-Top Speed: ~180 mph (290 km/h)\n-Engine Model: 4.9L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Ferrari F40",
+         "patterns": ["Ferrari F40", "F40"],
+         "responses": [ "Estimated Value: 1.5million-2 million USD\n-Top Speed: ~201 mph (323 km/h)\n-Engine Model: 2.9L V8 Twin-Turbo\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Ferrari 456 GT",
+         "patterns": ["Ferrari 456 GT", "456 GT"],
+         "responses": [ "Estimated Value: 50,000-100,000 USD\n-Top Speed: ~186 mph (299 km/h)\n-Engine Model: 5.5L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        },
+        {"tag": "Ferrari 612 Scaglietti",
+         "patterns": ["Ferrari 612 Scaglietti", "612", "Scaglietti"],
+         "responses": [  "Estimated Value: 60,000-100,000 USD\n-Top Speed: ~199 mph (320 km/h)\n-Engine Model: 5.7L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Ferrari P4/5 by Pininfarina",
+         "patterns": ["Ferrari P4/5 by Pininfarina", "P4/5 by Pininfarina", "p45"],
+         "responses": [ "Estimated Value: Around $4 million USD\n-Top Speed: ~211 mph (340 km/h)\n-Engine Model: 6.3L V12\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Alfa Romeo 6C 2500",
+         "patterns": ["Alfa Romeo 6C 2500", "Romeo 6C 2500", "6C 2500", "2500"],
+         "responses": [  "Estimated Value: 150,000-250,000 USD\n-Top Speed: ~100 mph (160 km/h)\n-Engine Model: 2.5L Inline-6\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        },
+        {"tag": "Alfa Romeo Spider",
+         "patterns": ["Alfa Romeo Spider", "Romeo Spider"],
+         "responses": [  "Estimated Value: 30,000-70,000 USD\n-Top Speed: ~120 mph (193 km/h)\n-Engine Model: 1.6L Inline-4 to 2.0L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Alfa Romeo GTV6",
+         "patterns": ["Alfa Romeo GTV6", "Romeo GTV6", "GTV6"],
+         "responses": [ "Estimated Value: 15,000-30,000 USD\n-Top Speed: ~140 mph (225 km/h)\n-Engine Model: 2.5L V6\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Alfa Romeo 164",
+         "patterns": ["Alfa Romeo 164", "Romeo 164", "164"],
+         "responses": [ "Estimated Value: 5,000-15,000 USD\n-Top Speed: ~140 mph (225 km/h)\n-Engine Model: 3.0L V6\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        {"tag": "Alfa Romeo Brera",
+         "patterns": ["Alfa Romeo Brera"],
+         "responses": ["Estimated Value: 20,000-40,000 USD\n-Top Speed: ~155 mph (250 km/h)\n-Engine Model: 3.2L V6\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Lancia Aurelia B24 Spider",
+         "patterns": ["Lancia Aurelia B24 Spider"],
+         "responses": ["Estimated Value: 150,000-300,000 USD\n-Top Speed: ~115 mph (185 km/h)\n-Engine Model: 2.5L V6\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Lancia Flaminia",
+         "patterns": ["Lancia Flaminia"],
+         "responses": [  "Estimated Value: 40,000-80,000 USD\n-Top Speed: ~115 mph (185 km/h)\n-Engine Model: 2.5L V6\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        {"tag": "Lancia Beta Montecarlo",
+         "patterns": ["Lancia Beta Montecarlo"],
+         "responses": [  "Estimated Value: 10,000-30,000 USD\n-Top Speed: ~130 mph (210 km/h)\n-Engine Model: 2.0L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Lancia Kappa",
+         "patterns": ["Lancia Kappa"],
+         "responses": [ "Estimated Value: 5,000-15,000 USD\n-Top Speed: ~140 mph (225 km/h)\n-Engine Model: 2.0L or 2.4L Inline-5\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Peugeot 504",
+         "patterns": ["Peugeot 504"],
+         "responses": ["Estimated Value: 10,000-30,000 USD\n-Top Speed: ~110 mph (177 km/h)\n-Engine Model: 1.8L to 2.0L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        {"tag": "Peugeot 605",
+         "patterns": ["Peugeot 605"],
+         "responses": [ "Estimated Value: 5,000-15,000 USD\n-Top Speed: ~130 mph (210 km/h)\n-Engine Model: 2.0L to 3.0L V6\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Peugeot 406",
+         "patterns": ["Peugeot 406"],
+         "responses": [  "Estimated Value: 3,000-10,000 USD\n-Top Speed: ~130 mph (210 km/h)\n-Engine Model: 1.8L to 2.9L Inline-4 or V6\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Peugeot 508",
+         "patterns": [ "Peugeot 508"],
+         "responses": ["Estimated Value: 15,000-30,000 USD\n-Top Speed: ~155 mph (250 km/h)\n-Engine Model: 1.6L to 2.0L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        {"tag": "Fiat 500",
+         "patterns": ["Fiat 500"],
+         "responses": [ "Estimated Value: 10,000-30,000 USD\n-Top Speed: ~90 mph (145 km/h)\n-Engine Model: 0.9L to 1.2L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Fiat Dino",
+         "patterns": ["Fiat Dino"],
+         "responses": [ "Estimated Value: 70,000-150,000 USD\n-Top Speed: ~140 mph (225 km/h)\n-Engine Model: 2.4L or 3.0L V6\n-Fuel Type: Petrol\n-Seating Capacity: 2+2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Fiat X1/9",
+         "patterns": ["Fiat X1/9"],
+         "responses": ["Estimated Value: 10,000-20,000 USD\n-Top Speed: ~110 mph (177 km/h)\n-Engine Model: 1.3L to 1.5L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        },
+        {"tag": "Fiat 124 Spider",
+         "patterns": ["Fiat 124 Spider"],
+         "responses": [  "Estimated Value: 20,000-40,000 USD\n-Top Speed: ~115 mph (185 km/h)\n-Engine Model: 1.4L to 2.0L Inline-4\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Maserati A6G/54",
+         "patterns": ["Maserati A6G/54"],
+         "responses": [  "Estimated Value: 500,000-1 million USD\n-Top Speed: ~130 mph (210 km/h)\n-Engine Model: 2.0L Inline-6\n-Fuel Type: Petrol\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Maserati Ghibli",
+         "patterns": ["Maserati Ghibli"],
+         "responses": [ "Estimated Value: 50,000-150,000 USD\n-Top Speed: ~155 mph (250 km/h)\n-Engine Model: 3.0L V6\n-Fuel Type: Petrol\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        {"tag": "Maserati Quattroporte",
+         "patterns": [ "Maserati Quattroporte"],
+         "responses": [ "Estimated Value: $30,000 - $100,000 USD\n-Top Speed: ~155 mph (250 km/h)\n-Engine Model: 3.0L V6 to 4.2L V8\n-Fuel Type: Petrol\n\n-Seating Capacity: 4\n"],
+         "context_set": ""
+        },
+        
+        {"tag": "Pininfarina Battista",
+         "patterns": ["Pininfarina Battista"],
+         "responses": ["Estimated Value: $2.2 million USD\n-Top Speed: ~217 mph (350 km/h)\n-Engine Model: Electric (120 kWh battery)\n-Fuel Type: Electric\n-Seating Capacity: 2\n"],
+         "context_set": ""
+        }
+        ,
+        {"tag": "Pininfarina Pura Vision",
+         "patterns": ["Pininfarina Pura Vision", "Pura Vision"],
+         "responses": [ "The exact details have not been published by the official authorities yet"],
+         "context_set": ""
+        }
+        
+   ]
+}
